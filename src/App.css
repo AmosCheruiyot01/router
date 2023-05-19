@@ -1,0 +1,28 @@
+.header{
+  height: 20vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+ .pages, .error, .about, .home{
+  height: 50vh;
+  background-color: rgb(169, 125, 210);
+}
+
+.shortcuts{
+  text-decoration: none;
+  font-size: medium;
+
+}
+
+.footer{
+  background-color: antiquewhite;
+  height: 20vh;
+}
+
