@@ -4,13 +4,14 @@ const Header = () =>{
     return(
         <div className="head">
             <div className="header">
-                <h2> Business news   </h2>
-                <h3>business</h3>
+                <h2> ChatGPT  </h2>
+                <h3>Business News</h3>
         </div>
 <div className="shortcuts flex">
-<Link className="shortcuts" to="/about">about</Link>
+<Link className="shortcuts" to="/">Home</Link>
 <Link className="shortcuts" to="/pages">Highlights</Link>
-<Link className="shortcuts" to="/">home</Link>
+<Link className="shortcuts" to="/about">About</Link>
+
 
         
 </div>
