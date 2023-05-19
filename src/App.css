@@ -3,6 +3,7 @@
   background-color: #B4804B;
   display: flex;
   justify-content: space-around;
+  border-radius: 10px;
   
 }
 
@@ -13,7 +14,7 @@
 
  .home{
   height: 50vh;
-  background-color: rgb(181, 113, 130);
+  background-color: rgb(223, 239, 172);
   color: rgb(173, 11, 173);
 }
 
@@ -33,14 +34,24 @@
 .pages{
   background-color: rgb(134, 128, 119);
   color: rgb(173, 11, 173);
+  border-radius: 10px;
 }
  .error{
   background-color: #B4804B;
   background-color: rgb(204, 237, 230);
   color: rgb(233, 62, 5);
+  
  } 
  .about{
   background-color: rgb(201, 122, 93);
-  color: rgb(173, 11, 173);
+  color: rgb(148, 13, 148);
+  
+  
+ }
+
+ .about, .error, .pages{
+  border-radius: 10px;
+  height: 60vh;
+  font-family: sans-serif;
  }
 
